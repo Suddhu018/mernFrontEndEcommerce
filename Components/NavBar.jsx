@@ -125,7 +125,7 @@ function NavBar() {
           >
             <img
               className="w-10 mx-2 transition-all duration-200 hover:scale-105"
-              src="../Assets/trolley.png"
+              src="../public/trolley.png"
             />
             <span id="cartDisp" className="text-Written ">
               {cart}

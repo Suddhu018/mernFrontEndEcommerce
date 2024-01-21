@@ -45,6 +45,10 @@ export default function SignIn(props) {
       ) : (
         <div className="flex justify-center items-center h-screen bg-mainBody">
           <section className="rounded-xl border-borDER border-2 w-[30%] bg-mainBoxes">
+            <div className="border rounded-xl p-4 text-Written">
+              For testing email: testbuyer@gmail.com
+              <div>Password:1234</div>
+            </div>
             <div className="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
               <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
                 <h3 className="text-Dred">

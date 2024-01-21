@@ -157,7 +157,7 @@ export default function Accounts() {
                   src={
                     userinformation.image == "../Assets/user.png"
                       ? "../Assets/user.png"
-                      : "../ProfilePicuploads/" + userinformation.image
+                      : "../public/" + userinformation.image
                   }
                   className="w-[70px] hover:cursor-pointer mb-[10px]"
                   onClick={setpic}
